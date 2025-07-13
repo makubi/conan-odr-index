@@ -106,7 +106,7 @@ class CairoConan(ConanFile):
         if self.options.with_fontconfig:
             self.requires("fontconfig/2.15.0-odr", transitive_headers=True, transitive_libs=True)
         if self.options.with_png:
-            self.requires("libpng/[>=1.6 <2]")
+            self.requires("libpng/[>=1.6.50 <2]")
         if self.options.with_glib:
             self.requires("glib/2.81.0-odr")
         if self.settings.os in ["Linux", "FreeBSD"]:
