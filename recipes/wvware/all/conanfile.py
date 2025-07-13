@@ -59,7 +59,7 @@ class wvWareConan(ConanFile):
         self.requires("libpng/[>=1.6 <2]")
 
         # Requirements not passed from libgsf
-        self.requires("libxml2/2.12.7")
+        self.requires("libxml2/2.13.8")
 
         if self.settings.os == "Android":
             self.requires("tmpfile/3.0.6")
