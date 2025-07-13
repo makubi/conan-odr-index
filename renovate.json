@@ -6,7 +6,10 @@
   "conan": {
     "enabled": true
   },
-  "lockFileMaintenance": { "enabled": true },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["at any time"]
+  },
   "packageRules": [
     {
       "matchDatasources": [
