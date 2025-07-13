@@ -27,6 +27,18 @@
         "wvware"
       ],
       "versioning": "docker"
+    },
+    {
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest",
+        "rollback",
+        "bump",
+        "replacement"
+      ],
+      "groupName": "All updates"
     }
   ],
   "prHourlyLimit": 100,
