@@ -19,16 +19,6 @@
       ]
     },
     {
-      "description": "Configure wvware",
-      "matchDatasources": [
-        "conan"
-      ],
-      "matchDepNames": [
-        "wvware"
-      ],
-      "versioning": "loose"
-    },
-    {
       "matchUpdateTypes": [
         "major",
         "minor",
