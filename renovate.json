@@ -18,5 +18,6 @@
       ],
       "rangeStrategy": "replace"
     }
-  ]
+  ],
+  "schedule": ["at any time"]
 }
