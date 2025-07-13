@@ -22,7 +22,6 @@ class GLibConan(ConanFile):
     )
     topics = "gio", "gmodule", "gnome", "gobject", "gtk"
     url = "https://github.com/conan-io/conan-center-index"
-    homepage = "https://gitlab.gnome.org/GNOME/glib"
     license = "LGPL-2.1-or-later"
     package_type = "library"
     settings = "os", "arch", "compiler", "build_type"
