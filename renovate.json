@@ -26,5 +26,9 @@
       ],
       "allowedVersions": "!/4\\..*/"
     }
-  ]
+  ],
+  "lockFileMaintenance": { 
+    "enabled": true,
+    "schedule": ["at any time"]
+  }
 }
