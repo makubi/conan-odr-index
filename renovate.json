@@ -21,6 +21,9 @@
       ]
     },
     {
+      "matchDatasources": [
+        "conan"
+      ],
       "matchPackageNames": [
         "wvware"
       ],
