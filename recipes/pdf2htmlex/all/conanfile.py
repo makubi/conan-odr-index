@@ -51,7 +51,7 @@ class pdf2htmlEXConan(ConanFile):
             "shared": False,
             "fontconfiguration": "fontconfig",
         }, transitive_headers=True, transitive_libs=True)
-        self.requires("cairo/1.18.0-odr", options={
+        self.requires("cairo/1.18.0", options={
             # Don't pull in xorg dependencies.
             "with_xlib": False,
             "with_xlib_xrender": False,
