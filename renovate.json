@@ -1,18 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    "helpers:pinGitHubActionDigests"
+    "config:best-practices",
+    "group:all"
   ],
   "conan": {
     "enabled": true
   },
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["at any time"]
-  },
   "packageRules": [
     {
+      "description": "Configure OpenDocument App artifactory",
       "matchDatasources": [
         "conan"
       ],
@@ -22,6 +19,7 @@
       ]
     },
     {
+      "description": "Configure wvware",
       "matchDatasources": [
         "conan"
       ],
@@ -31,7 +29,6 @@
       "versioning": "docker"
     }
   ],
-  "schedule": ["at any time"],
   "prHourlyLimit": 100,
   "prConcurrentLimit": 100
 }
