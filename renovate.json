@@ -6,5 +6,16 @@
   "conan": {
     "enabled": true
   },
-  "lockFileMaintenance": { "enabled": true }
+  "lockFileMaintenance": { "enabled": true },
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "conan"
+      ],
+      "registryUrls": [
+        "https://artifactory.opendocument.app/artifactory/api/conan/conan",
+        "https://center2.conan.io"
+      ]
+    }
+  ]
 }
