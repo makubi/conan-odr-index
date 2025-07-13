@@ -13,6 +13,7 @@
         "conan"
       ],
       "registryUrls": [
+        "https://artifactory.opendocument.app/artifactory/api/conan/conan",
         "https://artifactory.opendocument.app/artifactory/api/conan/conan"
       ],
       "rangeStrategy": "replace"
