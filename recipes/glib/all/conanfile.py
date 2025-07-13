@@ -68,7 +68,7 @@ class GLibConan(ConanFile):
         basic_layout(self, src_folder="src")
 
     def requirements(self):
-        self.requires("zlib/[>=1.2.11 <2]")
+        self.requires("zlib/[>=1.3.1 <2]")
         self.requires("libffi/3.4.8")
         self.requires("pcre2/10.42")
         if self.options.get_safe("with_elf"):

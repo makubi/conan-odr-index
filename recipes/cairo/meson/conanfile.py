@@ -100,7 +100,7 @@ class CairoConan(ConanFile):
         if self.options.with_lzo:
             self.requires("lzo/2.10")
         if self.options.with_zlib:
-            self.requires("zlib/[>=1.2.11 <2]")
+            self.requires("zlib/[>=1.3.1 <2]")
         if self.options.with_freetype:
             self.requires("freetype/2.13.2", transitive_headers=True, transitive_libs=True)
         if self.options.with_fontconfig:
