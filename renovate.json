@@ -24,7 +24,7 @@
       "matchDatasources": [
         "conan"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "wvware"
       ],
       "versioning": "docker"
