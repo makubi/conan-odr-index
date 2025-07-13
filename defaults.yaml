@@ -10,7 +10,7 @@ packages:
     - "cairo/1.18.0-odr"
     - "argon2/20190702"
     - "wvware/1.2.9-vili"
-    - "wvware/1.2.9-odr"
+    - "wvware/1.2.8-odr"
     - "poppler/24.08.0-odr"
     - "pdf2htmlex/0.18.8.rc1-20240905-git-vili"
     - "pdf2htmlex/0.18.8.rc1-git-6f85c88-odr"
