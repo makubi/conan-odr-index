@@ -38,7 +38,7 @@ class FontForgeConan(ConanFile):
     }
 
     def requirements(self):
-        self.requires("freetype/2.13.2")
+        self.requires("freetype/2.13.3")
 
         self.requires("libxml2/2.12.7")
         self.requires("giflib/5.2.2")

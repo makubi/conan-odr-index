@@ -42,7 +42,7 @@ class FontconfigConan(ConanFile):
         basic_layout(self, src_folder="src")
 
     def requirements(self):
-        self.requires("freetype/2.13.2")
+        self.requires("freetype/2.13.3")
         self.requires("expat/[>=2.6.2 <3]")
         if self.settings.os == "Linux":
             self.requires("util-linux-libuuid/2.39.2")
