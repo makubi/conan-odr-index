@@ -15,7 +15,8 @@
       "registryUrls": [
         "https://artifactory.opendocument.app/artifactory/api/conan/conan",
         "https://center2.conan.io"
-      ]
+      ],
+      "rangeStrategy": "replace"
     }
   ]
 }
