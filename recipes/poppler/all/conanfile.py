@@ -139,7 +139,7 @@ class PopplerConan(ConanFile):
             self.requires("libtiff/4.6.0")
             # jbig and libdeflate are required by libtiff
             # Conan auto finds them, but linker doesn't, unless they're added here manually
-            self.requires("libdeflate/1.20")
+            self.requires("libdeflate/1.23")
             self.requires("jbig/20160605")
 
         if self.options.splash:
