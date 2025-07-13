@@ -19,6 +19,12 @@
         "https://artifactory.opendocument.app/artifactory/api/conan/conan",
         "https://center2.conan.io"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "wvware"
+      ],
+      "versioning": "docker"
     }
   ],
   "schedule": ["at any time"],
