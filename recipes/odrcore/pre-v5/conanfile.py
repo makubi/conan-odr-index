@@ -58,7 +58,7 @@ class OpenDocumentCoreConan(ConanFile):
         if Version(self.version) <= "2.0.0":
             return
 
-        self.test_requires("gtest/1.14.0")
+        self.test_requires("gtest/1.16.0")
 
     def validate_build(self):
         if self.settings.get_safe("compiler.cppstd"):

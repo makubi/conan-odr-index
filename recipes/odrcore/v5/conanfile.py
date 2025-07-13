@@ -58,7 +58,7 @@ class OpenDocumentCoreConan(ConanFile):
             self.requires("wvware/1.2.8-odr")
 
     def build_requirements(self):
-        self.test_requires("gtest/1.14.0")
+        self.test_requires("gtest/1.16.0")
 
     def validate_build(self):
         if self.settings.get_safe("compiler.cppstd"):
