@@ -21,5 +21,6 @@
       ]
     }
   ],
-  "schedule": ["at any time"]
+  "schedule": ["at any time"],
+  "prHourlyLimit": 100
 }
