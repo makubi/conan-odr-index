@@ -45,7 +45,7 @@ class LibgsfConan(ConanFile):
         # basic_layout(self, src_folder="src")
 
     def requirements(self):
-        self.requires("glib/2.81.0-odr", transitive_headers=True)
+        self.requires("glib/2.81.0", transitive_headers=True)
         self.requires("zlib/1.3.1")
         self.requires("libxml2/2.12.7", transitive_headers=True)
 
