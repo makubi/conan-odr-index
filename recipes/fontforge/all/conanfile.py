@@ -47,7 +47,7 @@ class FontForgeConan(ConanFile):
         self.requires("libgettext/0.22", transitive_headers=True, transitive_libs=True)
 
         if self.options.with_tiff:
-            self.requires("libtiff/4.6.0")
+            self.requires("libtiff/4.7.0")
 
         # jbig and libdeflate are required by libtiff
         # Conan auto finds them, but linker doesn't, unless they're added here manually
