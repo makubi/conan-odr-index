@@ -22,5 +22,6 @@
     }
   ],
   "schedule": ["at any time"],
-  "prHourlyLimit": 100
+  "prHourlyLimit": 100,
+  "prConcurrentLimit": 100
 }
