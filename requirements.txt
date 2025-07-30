@@ -1,4 +1,4 @@
-conan==2.18.1
+conan==2.19.1
 pyyaml==6.0.2
 semver==3.0.4
 setuptools==80.9.0
